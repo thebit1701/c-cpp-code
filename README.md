@@ -1,2 +1,2 @@
 # c-cpp-code
-basic code and algorithm
+Codechef and other problems solution  
