@@ -17,9 +17,16 @@ int main()
 			name[i]=make_pair(fn,sn);
 			freq[fn]++;
 		}
-		for(auto x:freq)
+		for(i=0;i<n;i++)
 		{
-			cout<<x.first<<" "<<x.second<<endl;
+			if(freq[name[i].first]!=1)
+				cout<<name[i].first<<" "<<name[i].second<<endl;
+			else
+				cout<<name[i].first<<endl;
 		}
+	//	for(auto x:freq)
+	//	{
+	//		cout<<x.first<<" "<<x.second<<endl;
+	//	}
 	}
 }
